@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-image: url("../images/background.jpeg");
+    background-size: 900px;
+    background-position:top center;
+    background-repeat:repeat-y;
+    background-color: #353535;
+}
+
+.pageHeader {
+    color: white;
+    background-color: black;
+    margin: 0;
+    height: 50px;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    font-family: 'Open Sans', sans-serif;
+    color: #9764CF;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin: 50px 25px;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+a {
+    color: #9764CF;
+}
